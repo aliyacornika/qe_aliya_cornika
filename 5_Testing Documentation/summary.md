@@ -1,6 +1,7 @@
 # 5 Testing Documentation 
 
-## Test Scenario
+## Resume
+### Test Scenario
 Dalam materi Testing Documentation, test scenario merupakan hal penting.
 Test scenario adalah langkah yang harus dilakukan oleh user (pengguna)
 untuk menyelasaikan suatu tujuan. 
@@ -11,7 +12,7 @@ Contoh test scenario:
 3. Cek tombol creat new account.
 4. Dsb.
 
-## Test Case
+### Test Case
 Dalam materi Testing Documentaion juga terdapat materi test case.
 Test Case merupakan uji kasus suatu rancangan yang dilakukan oleh user (pengguna) 
 untuk melakukan verifikasi terhadap fungsi atau fitur tertentu.
@@ -23,6 +24,9 @@ terdapat beberapa test case:
 1. Test case 1: Tombol tidak terklik (terpencet).
 2. Test case 2: Data terhapus.
 
-## Perbedaan
+### Perbedaan
 Perbedaan yang mendasar yaitu jika test scenario yaitu apa yang diujikan,
 sedangkan test case adalah bagaimana cara diujikan.
+
+## Task
+https://docs.google.com/spreadsheets/d/1D48NG-QkvBcztaC11aTc88YpNfXbR0jNXLhNK8bDvdE/edit?usp=sharing
