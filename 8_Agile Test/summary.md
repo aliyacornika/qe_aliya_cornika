@@ -2,7 +2,7 @@
 
 ## Resume
 Dalam materi ini, mempelajari tentang:
-1. Definisi of SDLC
+1. Definition of SDLC
 2. Phases of SDLC
 3. Agile Testing Manifesto
 4. Testing Pyramid
