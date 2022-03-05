@@ -51,10 +51,11 @@ kembali commands yang sudah ditambah sebelumnya.
 4. etc
 
 #### Utilities Program Commands
-1. ls
-2. which
-3. sudo
-4. find
+1. ls memiliki fungsi menampilkan file di directory kerja
+2. which command yang digunakan untuk mencari 
+file yang dapat dieksekusi terkait command yang diberikan
+3. sudo berfungsi untuk menjalankan task yang memerlukan hak akses
+4. find digunakan untuk mencari sesuatu di directory
 5. etc.
 
 #### File Access Permissions
