@@ -18,7 +18,7 @@ Sangat berguna dan lebih cepat daripada memakai GUI.
 Ringan digunakan sehingga tidak terlalu dibutuhkan device
 spesifikasi tinggi.
 2. Repetitive Task Friendly
-Menyimpan skrip untuk mengotomatiskan 
+Menyimpan script untuk mengotomatiskan 
 dengan tugas yang sama.
 3. Powerful
 Karena hanya menggunakan text, terlihat lebih stabil
