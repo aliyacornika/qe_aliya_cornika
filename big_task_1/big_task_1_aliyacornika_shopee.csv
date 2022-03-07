@@ -1,0 +1,10 @@
+﻿ID;Title;Created By;Created On;Estimate;Forecast;Priority;References;Section;Section Depth;Section Description;Suite;Suite ID;Type;Updated By;Updated On
+C19;Memasukkan Email dan Password yang benar;Aliya Cornika;03/06/2022 16:06;;;Low;;Login;0;;Master;S3;Functional;Aliya Cornika;03/06/2022 16:16
+C20;Memasukkan Email benar dan Password salah;Aliya Cornika;03/06/2022 16:07;;;Low;;Login;0;;Master;S3;Functional;Aliya Cornika;03/06/2022 16:18
+C21;Memasukkan Email salah dan Password benar;Aliya Cornika;03/06/2022 16:07;;;Low;;Login;0;;Master;S3;Functional;Aliya Cornika;03/06/2022 16:18
+C22;Mengecek barang dapat ditambahkan pada keranjang;Aliya Cornika;03/06/2022 16:24;;;High;;KeranjangSaya;0;;Master;S3;Functional;Aliya Cornika;03/06/2022 17:05
+C24;Memastikan barang yang telah habis dapat dimasukkan keranjang;Aliya Cornika;03/06/2022 16:27;;;High;;KeranjangSaya;0;;Master;S3;Destructive;Aliya Cornika;03/06/2022 16:59
+C25;Melihat barang yang telah dimasukkan keranjang;Aliya Cornika;03/06/2022 16:35;;;High;;KeranjangSaya;0;;Master;S3;Functional;Aliya Cornika;03/06/2022 16:36
+C26;Memastikan barang dapat dibeli langsung;Aliya Cornika;03/06/2022 16:38;;;High;;Checkout;0;;Master;S3;Functional;Aliya Cornika;03/06/2022 16:45
+C27;Memastikan barang yang ada di keranjang dapat dibeli;Aliya Cornika;03/06/2022 16:45;;;High;;Checkout;0;;Master;S3;Functional;Aliya Cornika;03/06/2022 16:51
+C28;Membayar dengan saldo ShopeePay yang kurang;Aliya Cornika;03/06/2022 16:54;;;High;;Checkout;0;;Master;S3;Functional;Aliya Cornika;03/06/2022 17:02

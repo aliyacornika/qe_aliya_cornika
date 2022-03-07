@@ -1,0 +1,10 @@
+﻿ID;Title;Created By;Created On;Estimate;Forecast;Priority;References;Section;Section Depth;Section Description;Suite;Suite ID;Type;Updated By;Updated On
+C17;Memasukkan Email dan Password yang benar;Aliya Cornika;03/06/2022 14:02;;;Low;;Masuk;0;;Master;S2;Functional;Aliya Cornika;03/06/2022 15:43
+C5;Memasukkan Email benar dan Password salah;Aliya Cornika;03/06/2022 13:44;;;Low;;Masuk;0;;Master;S2;Functional;Aliya Cornika;03/06/2022 15:44
+C6;Memasukkan Email salah dan Password benar;Aliya Cornika;03/06/2022 13:45;;;Low;;Masuk;0;;Master;S2;Functional;Aliya Cornika;03/06/2022 15:46
+C10;Mengecek menu utama dapat diakses pada Web Browser;Aliya Cornika;03/06/2022 13:51;;;High;;MenuUtama;0;;Master;S2;Functional;Aliya Cornika;03/06/2022 15:49
+C12;Mengecek menu utama dapat diakses menggunakan mode incognito;Aliya Cornika;03/06/2022 13:51;;;High;;MenuUtama;0;;Master;S2;Functional;Aliya Cornika;03/06/2022 15:46
+C18;Mengecek menu utama dapat diakses tanpa [dot] dalam Detik.com;Aliya Cornika;03/06/2022 15:54;;;High;;MenuUtama;0;;Master;S2;Functional;Aliya Cornika;03/06/2022 15:56
+C13;Memasukkan kata kunci berita;Aliya Cornika;03/06/2022 13:54;;;High;;CariBerita;0;;Master;S2;Functional;Aliya Cornika;03/06/2022 15:58
+C14;Memasukkan kata kunci alamat;Aliya Cornika;03/06/2022 13:56;;;High;;CariBerita;0;;Master;S2;Functional;Aliya Cornika;03/06/2022 15:58
+C15;Memasukkan nama penulis berita;Aliya Cornika;03/06/2022 13:56;;;High;;CariBerita;0;;Master;S2;Functional;Aliya Cornika;03/06/2022 15:59
