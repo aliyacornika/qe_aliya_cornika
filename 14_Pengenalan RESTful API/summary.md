@@ -39,5 +39,27 @@ adalah cara untuk mendapat request. Terdiri dari kata kunci server.
 3. Header
 adalah kumpulan feed dan value yang terkait tentang pemberian informasi 
 yang memberi tahu bahwa pesan tersebut sah. 
-
 4. Body
+Request body mendefinisikan parameter apa yang dikirimkan ke server.
+Menginfromasikan data yang diupdate, diubah, maupun dihapus.
+
+JSON
+Java Script Obejct Notation (JSON) adalah sebuah
+format data yang digunakan untuk pertukaran dan penyimpanan data.
+JSON adalah bagin dari JavaScript. JSON juga dapat berbagai bahasa,
+seperti C, C++, dan lain-lain. Sehingga, JSON merupakan ideal antar
+aplikasi. 
+
+HTTP Response Code
+1. 200 : request yang dikirim berarti sukses.
+2. 201 : request yang dikririm berarti sukses, dan resourcenya 
+berhasil dibuat. Biasanya response code ini menggunakan
+method post dan put.
+3. 400 : terjadi jika melakukan request post dan put, kemudian
+datanya tidak sesuai dengan yang diharapkan ataupun 
+ada salah dalam formatnya. 
+4. 404 : resource yang diperlukan tidak ditemukan.
+5. 401 : tidak melakukan auntentifikasi terlebih dahulu
+sebelum melakukan request. 
+6. 405 : HTTP method yang digunakan salah.
+7. 500 : error karena ada kesalahan di server (internal).
