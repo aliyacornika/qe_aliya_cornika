@@ -17,10 +17,10 @@ tersebut, dilanjutkan dengan pembayaran
 melalui e-wallet.
 
 -	Apa kendala yang sering muncul saat performance test?
-a. Hanya bersifat satu arah saja 
-b. Tidak beriorentasi pada pengembangan karyawan 
-c. Hanya fokus pada imbalan dan gaji
-d. Periode penilaian kinerja yang terlalu lama 
+a. Hanya fokus pada imbalan dan gaji.
+b. Hanya bersifat satu arah saja. 
+c. Periode penilaian kinerja yang terlalu lama.
+d. Tidak beriorentasi pada pengembangan karyawan. 
 
 ## Usage in payment gateaway 
 -	Apa endpoints yang biasanya akan dites? 
@@ -37,7 +37,7 @@ d. Pemberian kode khusus transaksi.
 e. Transaksi berhasil.
 
 -	Apa kendala yang sering muncul saat performance test?
-a. Hanya bersifat satu arah saja 
-b. Tidak beriorentasi pada pengembangan karyawan 
-c. Hanya fokus pada imbalan dan gaji
-d. Periode penilaian kinerja yang terlalu lama 
+a. Hanya fokus pada imbalan dan gaji. 
+b. Hanya bersifat satu arah saja. 
+c. Periode penilaian kinerja yang terlalu lama.
+d. Tidak beriorentasi pada pengembangan karyawan.
