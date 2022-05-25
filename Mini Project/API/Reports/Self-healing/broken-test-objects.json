@@ -1,0 +1,34 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login/Page_frontend-web/input_Email_input-4532",
+      "brokenLocator": "//input[@id\u003d\u0027input-4532\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Login/Page_frontend-web/input_Email_input-4532_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login/Page_frontend-web/input_Email_input-1531",
+      "brokenLocator": "//input[@id\u003d\u0027input-1531\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Login/Page_frontend-web/input_Email_input-1531_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login/Page_frontend-web/input_Email_input-1524",
+      "brokenLocator": "//input[@id\u003d\u0027input-1524\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Login/Page_frontend-web/input_Email_input-1524_position.png"
+    }
+  ]
+}

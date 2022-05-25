@@ -1,0 +1,560 @@
+{
+	"info": {
+		"_postman_id": "dab9137a-ba2c-4626-aed0-f6cc0f9a08c9",
+		"name": "Manual",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Categories",
+			"item": [
+				{
+					"name": "Get All Categories",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGdWxsbmFtZSI6IkFsaXlhIEgiLCJFbWFpbCI6ImFsaXlhY29ybmlrYTkyQGVtYWlsLmNvbSJ9.Sqrbh7IuASUYJJTQ7dOSAYR7gMQRmp8xXVr7VKAYgss",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://be-qa.alta.id/api/categories",
+							"protocol": "https",
+							"host": [
+								"be-qa",
+								"alta",
+								"id"
+							],
+							"path": [
+								"api",
+								"categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Categories",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGdWxsbmFtZSI6IkFsaXlhIEgiLCJFbWFpbCI6ImFsaXlhY29ybmlrYTkyQGVtYWlsLmNvbSJ9.Sqrbh7IuASUYJJTQ7dOSAYR7gMQRmp8xXVr7VKAYgss",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Alat Kesehatan\",\r\n  \"description\" : \"alat kesehatan terbaik\"\r\n}\r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://be-qa.alta.id/api/categories",
+							"protocol": "https",
+							"host": [
+								"be-qa",
+								"alta",
+								"id"
+							],
+							"path": [
+								"api",
+								"categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all categories with invalid URL",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGdWxsbmFtZSI6IkFsaXlhIEgiLCJFbWFpbCI6ImFsaXlhY29ybmlrYTkyQGVtYWlsLmNvbSJ9.Sqrbh7IuASUYJJTQ7dOSAYR7gMQRmp8xXVr7VKAYgss",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://be-qa.altaid/api/categories",
+							"protocol": "https",
+							"host": [
+								"be-qa",
+								"altaid"
+							],
+							"path": [
+								"api",
+								"categories"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Product",
+			"item": [
+				{
+					"name": "Get All Products",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGdWxsbmFtZSI6IkFsaXlhIEgiLCJFbWFpbCI6ImFsaXlhY29ybmlrYTkyQGVtYWlsLmNvbSJ9.Sqrbh7IuASUYJJTQ7dOSAYR7gMQRmp8xXVr7VKAYgss",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://be-qa.alta.id/api/products",
+							"protocol": "https",
+							"host": [
+								"be-qa",
+								"alta",
+								"id"
+							],
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Product",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGdWxsbmFtZSI6IkFsaXlhIEgiLCJFbWFpbCI6ImFsaXlhY29ybmlrYTkyQGVtYWlsLmNvbSJ9.Sqrbh7IuASUYJJTQ7dOSAYR7gMQRmp8xXVr7VKAYgss",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \" \",\r\n  \"price\": 220000,\r\n  \"categories\": [\r\n    3,\r\n    6\r\n  ]\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://be-qa.alta.id/api/products",
+							"protocol": "https",
+							"host": [
+								"be-qa",
+								"alta",
+								"id"
+							],
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Aunthetication",
+			"item": [
+				{
+					"name": "Get Aunthetication with invalid method",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGdWxsbmFtZSI6IkFsaXlhIEgiLCJFbWFpbCI6ImFsaXlhY29ybmlrYTkyQGVtYWlsLmNvbSJ9.Sqrbh7IuASUYJJTQ7dOSAYR7gMQRmp8xXVr7VKAYgss",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://be-qa.alta.id/api/auth",
+							"protocol": "https",
+							"host": [
+								"be-qa",
+								"alta",
+								"id"
+							],
+							"path": [
+								"api",
+								"auth"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Register",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGdWxsbmFtZSI6IkFsaXlhIEgiLCJFbWFpbCI6ImFsaXlhY29ybmlrYTkyQGVtYWlsLmNvbSJ9.Sqrbh7IuASUYJJTQ7dOSAYR7gMQRmp8xXVr7VKAYgss",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"fullname\": \"Aliya H\",\r\n  \"email\": \"aliyacornika92@email.com\",\r\n  \"password\": \"123123\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://be-qa.alta.id/api/auth/register",
+							"protocol": "https",
+							"host": [
+								"be-qa",
+								"alta",
+								"id"
+							],
+							"path": [
+								"api",
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"aliyacornika92@email.com\",\r\n  \"password\": \"123123\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://be-qa.alta.id/api/auth/login",
+							"protocol": "https",
+							"host": [
+								"be-qa",
+								"alta",
+								"id"
+							],
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Transaction",
+			"item": [
+				{
+					"name": "Create Transaction",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGdWxsbmFtZSI6IkFsaXlhIEgiLCJFbWFpbCI6ImFsaXlhY29ybmlrYTkyQGVtYWlsLmNvbSJ9.Sqrbh7IuASUYJJTQ7dOSAYR7gMQRmp8xXVr7VKAYgss",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n  {\r\n    \"product_id\": 407,\r\n    \"quantity\": 26\r\n  }\r\n]\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://be-qa.alta.id/api/orders",
+							"protocol": "https",
+							"host": [
+								"be-qa",
+								"alta",
+								"id"
+							],
+							"path": [
+								"api",
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "All transaction",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGdWxsbmFtZSI6IkNpbmRpIEF1ZGluYSIsIkVtYWlsIjoiYXVkaW5hY2luZHlAZW1haWwuY29tIn0.asJyd7f9IR7YbOHVYS4Km5FHEN0lVeOFAlaQPRq7meQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://be-qa.alta.id/api/orders",
+							"protocol": "https",
+							"host": [
+								"be-qa",
+								"alta",
+								"id"
+							],
+							"path": [
+								"api",
+								"orders"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Comments",
+			"item": [
+				{
+					"name": "Comments",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGdWxsbmFtZSI6IkFsaXlhIEgiLCJFbWFpbCI6ImFsaXlhY29ybmlrYTkyQGVtYWlsLmNvbSJ9.Sqrbh7IuASUYJJTQ7dOSAYR7gMQRmp8xXVr7VKAYgss",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"content\": \"mantap cuyy, nggak sia sia beli disini\"\r\n}"
+						},
+						"url": {
+							"raw": "https://be-qa.alta.id/api/products/519/comments",
+							"protocol": "https",
+							"host": [
+								"be-qa",
+								"alta",
+								"id"
+							],
+							"path": [
+								"api",
+								"products",
+								"519",
+								"comments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Comments",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGdWxsbmFtZSI6IkFsaXlhIEgiLCJFbWFpbCI6ImFsaXlhY29ybmlrYTkyQGVtYWlsLmNvbSJ9.Sqrbh7IuASUYJJTQ7dOSAYR7gMQRmp8xXVr7VKAYgss",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://be-qa.alta.id/api/products/519/comments",
+							"protocol": "https",
+							"host": [
+								"be-qa",
+								"alta",
+								"id"
+							],
+							"path": [
+								"api",
+								"products",
+								"519",
+								"comments"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Ratings",
+			"item": [
+				{
+					"name": "Ratings",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGdWxsbmFtZSI6IkFsaXlhIEgiLCJFbWFpbCI6ImFsaXlhY29ybmlrYTkyQGVtYWlsLmNvbSJ9.Sqrbh7IuASUYJJTQ7dOSAYR7gMQRmp8xXVr7VKAYgss",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"count\": 2\r\n}\r\n"
+						},
+						"url": {
+							"raw": "https://be-qa.alta.id/api/products/519/ratings",
+							"protocol": "https",
+							"host": [
+								"be-qa",
+								"alta",
+								"id"
+							],
+							"path": [
+								"api",
+								"products",
+								"519",
+								"ratings"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ratings",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGdWxsbmFtZSI6IkFsaXlhIEgiLCJFbWFpbCI6ImFsaXlhY29ybmlrYTkyQGVtYWlsLmNvbSJ9.Sqrbh7IuASUYJJTQ7dOSAYR7gMQRmp8xXVr7VKAYgss",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://be-qa.alta.id/api/products/519/ratings",
+							"protocol": "https",
+							"host": [
+								"be-qa",
+								"alta",
+								"id"
+							],
+							"path": [
+								"api",
+								"products",
+								"519",
+								"ratings"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
